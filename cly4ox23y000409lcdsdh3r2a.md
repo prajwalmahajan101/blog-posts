@@ -6,7 +6,6 @@ datePublished: Sun Jun 30 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cly4ox23y000409lcdsdh3r2a
 slug: mastering-clean-code-effective-naming-conventions-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_SgRNwAVNKw/upload/2d1b899ea3b3eb780d5278269dd10923.jpeg
-tags: java, javascript, python, development, web-development, clean-code
 
 ---
 
