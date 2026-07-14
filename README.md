@@ -7,7 +7,8 @@ Source markdown for blog posts I publish, across platforms. Each platform has it
 ```
 .
 ├── hashnode/   # posts on https://prajwalmahajan101.hashnode.dev
-└── devto/      # posts on https://dev.to/prajwalmahajan101
+├── devto/      # posts on https://dev.to/prajwalmahajan101
+└── linkedin/   # short promo posts for https://www.linkedin.com/in/prajwalmahajan101
 ```
 
 ## hashnode/
@@ -28,6 +29,15 @@ dev.to posts. Filenames are slug-derived. Frontmatter follows dev.to's format (`
 | File | Title | Series | Published | Live |
 |---|---|---|---|---|
 | `building-toymq.md` | Building toymq: a from-scratch persistent message broker in Go | Building distributed systems · #1 | 2026-06-09 | [dev.to](https://dev.to/prajwalmahajan101/building-toymq-a-from-scratch-persistent-message-broker-in-go-ob7) |
+| `building-toymq-v2.md` | Building toymq v2: eight features, one durability contract, and the bug that proved it held | Building distributed systems · #2 | 2026-07-13 | [dev.to](https://dev.to/prajwalmahajan101/building-toymq-v2-eight-features-one-durability-contract-and-the-bug-that-proved-it-held-19ff) |
+
+## linkedin/
+
+Short promo posts that link back to the full dev.to retrospective. Plain text (no frontmatter) — LinkedIn has no markdown frontmatter dialect; each file is the exact copy to paste into a LinkedIn post, ending with the canonical post link, source repo, and hashtags. Filenames mirror the `devto/` slug so a post and its promo sit under the same name across folders.
+
+| File | Promotes | Live post |
+|---|---|---|
+| `building-toymq-v2.md` | `devto/building-toymq-v2.md` | [dev.to](https://dev.to/prajwalmahajan101/building-toymq-v2-eight-features-one-durability-contract-and-the-bug-that-proved-it-held-19ff) |
 
 ## Workflow
 
